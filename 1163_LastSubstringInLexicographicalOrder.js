@@ -46,7 +46,7 @@ let lastSubstring = function(s) {
       }
       j = b - 1
     }
-    j++
+    j++to refresh j, when  to not have timeout.
   }  
   return s.slice(i)
 }
